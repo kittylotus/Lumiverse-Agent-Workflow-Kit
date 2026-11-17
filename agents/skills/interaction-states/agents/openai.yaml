@@ -1,0 +1,5 @@
+interface:
+  display_name: "Interaction States"
+  short_description: "Specify and implement meaningful UI behavior and state transitions"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,5 @@
+interface:
+  display_name: "UI Audit"
+  short_description: "Audit an existing application or screen for UX friction, visual hierarchy, accessibility, layou"
+policy:
+  allow_implicit_invocation: false

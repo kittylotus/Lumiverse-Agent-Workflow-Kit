@@ -1,0 +1,5 @@
+interface:
+  display_name: "Lumiverse Extension / Full Liberty"
+  short_description: "Use for building, redesigning, integrating, or packaging a Lumiverse extension as an independently owned produ"
+policy:
+  allow_implicit_invocation: false

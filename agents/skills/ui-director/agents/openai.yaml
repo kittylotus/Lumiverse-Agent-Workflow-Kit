@@ -1,0 +1,5 @@
+interface:
+  display_name: "UI Director"
+  short_description: "Orchestrate a broad UI/UX task spanning design, prototype, implementation, integration, or QA"
+policy:
+  allow_implicit_invocation: false

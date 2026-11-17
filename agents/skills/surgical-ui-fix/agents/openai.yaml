@@ -1,0 +1,5 @@
+interface:
+  display_name: "Surgical UI Fix"
+  short_description: "Fix a small UI bug, compatibility issue or compatibility issue with tightly bounded changes"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Responsive Layout"
+  short_description: "Design or repair responsive layouts for narrow phones, tablets, desktop and resizable windows"
+policy:
+  allow_implicit_invocation: false

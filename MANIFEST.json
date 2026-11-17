@@ -1,0 +1,116 @@
+{
+  "version": "1.0.0",
+  "focus": "Lumiverse core PRs and Lumiverse extensions",
+  "skills": [
+    {
+      "name": "component-design",
+      "path": ".agents/skills/component-design/SKILL.md"
+    },
+    {
+      "name": "css-refactor",
+      "path": ".agents/skills/css-refactor/SKILL.md"
+    },
+    {
+      "name": "docs-authoring",
+      "path": ".agents/skills/docs-authoring/SKILL.md"
+    },
+    {
+      "name": "interaction-states",
+      "path": ".agents/skills/interaction-states/SKILL.md"
+    },
+    {
+      "name": "lumiverse-spindle-diagnostics",
+      "path": ".agents/skills/lumiverse-spindle-diagnostics/SKILL.md"
+    },
+    {
+      "name": "repo-investigation",
+      "path": ".agents/skills/repo-investigation/SKILL.md"
+    },
+    {
+      "name": "responsive-layout",
+      "path": ".agents/skills/responsive-layout/SKILL.md"
+    },
+    {
+      "name": "runtime-verification",
+      "path": ".agents/skills/runtime-verification/SKILL.md"
+    },
+    {
+      "name": "surgical-ui-fix",
+      "path": ".agents/skills/surgical-ui-fix/SKILL.md"
+    },
+    {
+      "name": "ui-audit",
+      "path": ".agents/skills/ui-audit/SKILL.md"
+    },
+    {
+      "name": "ui-director",
+      "path": ".agents/skills/ui-director/SKILL.md"
+    },
+    {
+      "name": "ui-integration",
+      "path": ".agents/skills/ui-integration/SKILL.md"
+    },
+    {
+      "name": "ui-prototype",
+      "path": ".agents/skills/ui-prototype/SKILL.md"
+    },
+    {
+      "name": "ui-redesign",
+      "path": ".agents/skills/ui-redesign/SKILL.md"
+    },
+    {
+      "name": "visual-qa",
+      "path": ".agents/skills/visual-qa/SKILL.md"
+    },
+    {
+      "name": "work-extension",
+      "path": ".agents/skills/work-extension/SKILL.md"
+    },
+    {
+      "name": "work-pr",
+      "path": ".agents/skills/work-pr/SKILL.md"
+    }
+  ],
+  "files_sha256": {
+    ".agents/skills/component-design/SKILL.md": "25e68b5121bcb8eeaa65177bf7c1587946fdf5ea873b40558a0cecb308a5cb3f",
+    ".agents/skills/component-design/agents/openai.yaml": "ced3e2c692046a32e71e32d69a481ba362d7944e2a30cb258501550f3b03a75c",
+    ".agents/skills/css-refactor/SKILL.md": "4184c3082d47b7c78a763803d617d0b056c554167dec68eb443920205a65e19f",
+    ".agents/skills/css-refactor/agents/openai.yaml": "af83f1ebbc5da11142387fc6826683c5819020516d36b80372e6fc69116f59a1",
+    ".agents/skills/css-refactor/scripts/scan_duplicate_selectors.py": "6f48380424801f9c74fbea99bdeef9a7de360636d892857256a1fa5ffb64636f",
+    ".agents/skills/docs-authoring/SKILL.md": "6e1b58f2f6f774cb7c2e5718f66a5b7d819bfbfc1d8104b057a74259f12fb557",
+    ".agents/skills/docs-authoring/agents/openai.yaml": "58e1284c9768dcbace0b9bb78549ee6996ccd2fbd59c1defd37835b5cb58743a",
+    ".agents/skills/interaction-states/SKILL.md": "7f5a3c5c9059860dc452dd9d99c449b53ea41d73494036686764752184fc7e77",
+    ".agents/skills/interaction-states/agents/openai.yaml": "fa2e65fba2785b34fcc245ebc696ba95535628726f93d4521e41b5c8573955ed",
+    ".agents/skills/lumiverse-spindle-diagnostics/SKILL.md": "2db8e03b8d8fa24380b81ddcc9428cc515003bcf2756c49fbcf01ebdefbc79c8",
+    ".agents/skills/lumiverse-spindle-diagnostics/agents/openai.yaml": "6eecbc07b13ecb9c618cf0c1db8c2948199ebcf30839f703f5ff8433c589af26",
+    ".agents/skills/repo-investigation/SKILL.md": "2867f42db5df4b3443f70d2aec1214a27d6208c62efd7875d89f81e5e2c6de68",
+    ".agents/skills/repo-investigation/agents/openai.yaml": "6c0a2253687aea51f6a99ba8da39f61dca4a8d0ee9729f48c71a455d5156ea06",
+    ".agents/skills/responsive-layout/SKILL.md": "7d4bf5e2d665f90fcf0c705c65e39e20aa64162ffe4b1a67efdb249229c21a51",
+    ".agents/skills/responsive-layout/agents/openai.yaml": "553907db89a8138b05a7a7a1e27e567d1b4743bb5fb17f69cede335e62e5b8ff",
+    ".agents/skills/runtime-verification/SKILL.md": "94dbf4c5995251bd6230f8c4af52d952742ddcdaf363dc4616c61b55057ecaf7",
+    ".agents/skills/runtime-verification/agents/openai.yaml": "3c9310fec87dc08819811f04006225cf8e76bff8af539a2a9e05dbddc66d44cc",
+    ".agents/skills/surgical-ui-fix/SKILL.md": "12961c56765cb08d71849ee5b931d60de9c65b26073c5070589abce9c0791d2c",
+    ".agents/skills/surgical-ui-fix/agents/openai.yaml": "88b66d0dec12d335b689e01556e4d53d08c5f9776f987e74fe6bf130f1a08787",
+    ".agents/skills/ui-audit/SKILL.md": "8a52b48bb1c3210c28f86c8a806803ab38f32002785f7127902e15660f133e55",
+    ".agents/skills/ui-audit/agents/openai.yaml": "f410bb628a20b8a16c7294ae616e06d1f460134f0daf879963e7b82a17f83c7f",
+    ".agents/skills/ui-director/SKILL.md": "55f6594e073fe4da0652824296b96d074af8890ce7f778b8fa260657fc7d3378",
+    ".agents/skills/ui-director/agents/openai.yaml": "b94afa90bd9c87f9c52dba41c7ff300370f6203659e5810e0bf14b8adbe638bb",
+    ".agents/skills/ui-integration/SKILL.md": "c3f17928a5b0a5cfd07b90e23bc1d2699e87cdc9cf6f1be72a19c16ff21cbb43",
+    ".agents/skills/ui-integration/agents/openai.yaml": "2ab3bc690913ebbd830c0a782bab78e4373b45e8e788096e9f355b9640bcd5cc",
+    ".agents/skills/ui-prototype/SKILL.md": "39c91e68a4020f850b689716b0c22c1df5706ef8b209882d01c9c1caf515a0ef",
+    ".agents/skills/ui-prototype/agents/openai.yaml": "bb666778cf9c5d8c8abfa20e7b076809d97b8d1787928376301a795f1f13b11e",
+    ".agents/skills/ui-redesign/SKILL.md": "7d8d5ace1a925d27d64e2789d0c8a3fd36c9a32c467caae8a503df4a445d36fb",
+    ".agents/skills/ui-redesign/agents/openai.yaml": "e806a130013ae025f2ebfcfd98de9993322896603955cb239276bfe350716652",
+    ".agents/skills/visual-qa/SKILL.md": "21837c62c7b352d10514f5124f9557a66abdb1465695f62b53f1bb0c00e05a70",
+    ".agents/skills/visual-qa/agents/openai.yaml": "8a86a9b4ddc8507f2e5d8f906842165767fc1224910e0f13f5f497c32214aaca",
+    ".agents/skills/work-extension/SKILL.md": "79fd6eabf97b87c4b37f19002a8a8e42340676646977e8ca2fa03c7f80c95d70",
+    ".agents/skills/work-extension/agents/openai.yaml": "6d989ccac73d9cf83fda61a6e2741887c09371ceacbe5c163e5f8a1b551da037",
+    ".agents/skills/work-extension/references/lumiverse-host-lifecycle.md": "c7032bddca9444eeaf3048f7d80ddb666a5255b26a244af84ba589e2597e4977",
+    ".agents/skills/work-pr/SKILL.md": "6d8945d1153d381d065d69f9c8431e73001972d92be3351b13f0df16c8646d01",
+    ".agents/skills/work-pr/agents/openai.yaml": "a7b02f413f423c4fbdd35f0bf1d19ab13a0814885ce86fcc391c52e8094b3a8e",
+    ".agents/skills/work-pr/references/lumiverse-pr-review.md": "5a262616af989f505cf92d346c146b04fb8d24df9dc502d25f37270c8acd691d",
+    "AGENTS.example.md": "46249a3ac025de004f75cb0e458373b5c84be4a4ea756d54dcbcc9bf8b311b19",
+    "README.md": "63f01dfd29004a15d4157fbfdce32cd9400b9e7267f22696d4a24be66e5c3a06",
+    "RELEASE_NOTES.md": "38815feb6a42ab98598e197b594b5c52945121f3050df147dceac1f009ce0ae3"
+  }
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Read-only Repo Investigation"
+  short_description: "Use for read-only code audits, mapping an unfamiliar repo, regression forensics, API discovery, or design diag"
+policy:
+  allow_implicit_invocation: false

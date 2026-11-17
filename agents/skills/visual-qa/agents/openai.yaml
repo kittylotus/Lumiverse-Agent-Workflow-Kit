@@ -1,0 +1,5 @@
+interface:
+  display_name: "Visual QA"
+  short_description: "Verify UI appearance and interactions against approved references across desktop, mobile and br"
+policy:
+  allow_implicit_invocation: false

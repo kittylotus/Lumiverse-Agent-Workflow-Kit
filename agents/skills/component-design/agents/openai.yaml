@@ -1,0 +1,5 @@
+interface:
+  display_name: "Component Design"
+  short_description: "Create or consolidate reusable UI components and design tokens such as headers, sidebars, modal"
+policy:
+  allow_implicit_invocation: false

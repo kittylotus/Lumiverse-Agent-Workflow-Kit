@@ -1,0 +1,5 @@
+interface:
+  display_name: "UI Redesign"
+  short_description: "Redesign and implement an ugly, cramped, or incoherent application interface"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Lumiverse Spindle & E2E"
+  short_description: "Use the existing Lumiverse browser diagnostics harness with realistic lifecycle fixtures"
+policy:
+  allow_implicit_invocation: false

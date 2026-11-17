@@ -1,0 +1,5 @@
+interface:
+  display_name: "Documentation Only"
+  short_description: "Use for documentation-only assignments in Lumiverse core PRs and extensions. Verify every stated command/pat"
+policy:
+  allow_implicit_invocation: false

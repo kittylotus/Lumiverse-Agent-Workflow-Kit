@@ -1,0 +1,5 @@
+interface:
+  display_name: "Live PR / Lumiverse Core"
+  short_description: "Use for a live upstream/core pull request, especially Lumiverse core. Protect the Git worktree, keep the chang"
+policy:
+  allow_implicit_invocation: false

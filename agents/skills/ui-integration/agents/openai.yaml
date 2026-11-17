@@ -1,0 +1,5 @@
+interface:
+  display_name: "UI Integration"
+  short_description: "Wire an already approved UI to real APIs, filesystem, persistence, process control or backend c"
+policy:
+  allow_implicit_invocation: false

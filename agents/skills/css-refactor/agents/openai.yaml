@@ -1,0 +1,5 @@
+interface:
+  display_name: "CSS Refactor"
+  short_description: "Refactor, deduplicate, and fix CSS cascade issues at their source"
+policy:
+  allow_implicit_invocation: false

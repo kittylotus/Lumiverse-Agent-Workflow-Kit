@@ -1,0 +1,5 @@
+interface:
+  display_name: "UI Prototype"
+  short_description: "Create a interactive interactive HTML/DOCTYPE UI prototype as a design contract before implement"
+policy:
+  allow_implicit_invocation: false

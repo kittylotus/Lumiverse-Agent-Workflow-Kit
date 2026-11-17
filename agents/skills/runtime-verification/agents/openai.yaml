@@ -1,0 +1,5 @@
+interface:
+  display_name: "Runtime and E2E Verification"
+  short_description: "Use when unit tests or builds cannot prove behavior: browser/Tauri/PWA/extension lifecycle, integration APIs, "
+policy:
+  allow_implicit_invocation: false
