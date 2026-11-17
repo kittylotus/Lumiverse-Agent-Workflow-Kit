@@ -92,18 +92,18 @@ Skills with the same name in more than one location are not automatically merged
 
 | Skill | When to use |
 |---|---|
-| [`$work-pr`](.agents/skills/work-pr/SKILL.md) | Live Lumiverse core/upstream contribution; protect checkout and reviewability |
-| [`$work-extension`](.agents/skills/work-extension/SKILL.md) | Build, redesign, debug or package an independently owned Lumiverse extension |
+| [`$work-pr`](agents/skills/work-pr/SKILL.md) | Live Lumiverse core/upstream contribution; protect checkout and reviewability |
+| [`$work-extension`](agents/skills/work-extension/SKILL.md) | Build, redesign, debug or package an independently owned Lumiverse extension |
 
 **Specialists** (invoke alongside the primary workflow only when needed):
 
 | Engineering / integration | Design / experience | Verification / investigation |
 |---|---|---|
-| [`$css-refactor`](.agents/skills/css-refactor/SKILL.md) | [`$ui-audit`](.agents/skills/ui-audit/SKILL.md) | [`$runtime-verification`](.agents/skills/runtime-verification/SKILL.md) |
-| [`$surgical-ui-fix`](.agents/skills/surgical-ui-fix/SKILL.md) | [`$ui-prototype`](.agents/skills/ui-prototype/SKILL.md) | [`$lumiverse-spindle-diagnostics`](.agents/skills/lumiverse-spindle-diagnostics/SKILL.md) |
-| [`$ui-integration`](.agents/skills/ui-integration/SKILL.md) | [`$ui-redesign`](.agents/skills/ui-redesign/SKILL.md) | [`$visual-qa`](.agents/skills/visual-qa/SKILL.md) |
-| [`$interaction-states`](.agents/skills/interaction-states/SKILL.md) | [`$responsive-layout`](.agents/skills/responsive-layout/SKILL.md) | [`$repo-investigation`](.agents/skills/repo-investigation/SKILL.md) |
-| [`$component-design`](.agents/skills/component-design/SKILL.md) | [`$ui-director`](.agents/skills/ui-director/SKILL.md) | [`$docs-authoring`](.agents/skills/docs-authoring/SKILL.md) |
+| [`$css-refactor`](agents/skills/css-refactor/SKILL.md) | [`$ui-audit`](agents/skills/ui-audit/SKILL.md) | [`$runtime-verification`](agents/skills/runtime-verification/SKILL.md) |
+| [`$surgical-ui-fix`](agents/skills/surgical-ui-fix/SKILL.md) | [`$ui-prototype`](agents/skills/ui-prototype/SKILL.md) | [`$lumiverse-spindle-diagnostics`](agents/skills/lumiverse-spindle-diagnostics/SKILL.md) |
+| [`$ui-integration`](agents/skills/ui-integration/SKILL.md) | [`$ui-redesign`](agents/skills/ui-redesign/SKILL.md) | [`$visual-qa`](agents/skills/visual-qa/SKILL.md) |
+| [`$interaction-states`](agents/skills/interaction-states/SKILL.md) | [`$responsive-layout`](agents/skills/responsive-layout/SKILL.md) | [`$repo-investigation`](agents/skills/repo-investigation/SKILL.md) |
+| [`$component-design`](agents/skills/component-design/SKILL.md) | [`$ui-director`](agents/skills/ui-director/SKILL.md) | [`$docs-authoring`](agents/skills/docs-authoring/SKILL.md) |
 
 <details>
 <summary><b>What lives inside the kit?</b></summary>
