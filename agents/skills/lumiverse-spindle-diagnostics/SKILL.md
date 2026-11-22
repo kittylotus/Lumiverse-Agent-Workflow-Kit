@@ -5,6 +5,8 @@ description: Verify Lumiverse Spindle, browser DOM lifecycle, portal or extensio
 
 # Lumiverse Spindle diagnostics
 
+**UUID regression gate:** For extension ID generation, verify `spindle.uuid.v4/v7` (backend async) or `ctx.uuid.v4/v7` (frontend sync). Staging does not expose UUID v6. Never use `crypto.randomUUID()` in extension frontend code: test the plain-HTTP origin with `scripts/e2e-diagnostics/check-spindle-uuid.mjs` when UUID behavior is relevant.
+
 1. Read repository scripts and inspect `scripts/e2e-diagnostics`; don't assume scripts/paths exist in a different checkout. Use existing `bun run diagnose` or `bun run diagnose:spindle` when supported.
 2. Define an observable user journey and the expected DOM/state/API result. Reproduce first, then test the fix on the same path.
 3. For logic-only source/spindle changes, build a minimal realistic host fixture with mount targets, mocked APIs, persisted state and delayed/missing targets. Include null refs, desynchronization, stale callbacks and teardown/reinit.

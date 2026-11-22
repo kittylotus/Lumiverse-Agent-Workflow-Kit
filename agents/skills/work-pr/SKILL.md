@@ -5,6 +5,10 @@ description: Use for a live upstream/core pull request, for Lumiverse core. Prot
 
 # PR mode — a reviewer must understand the diff
 
+## STOP: UUIDs are a first-pass architecture decision
+
+**Before implementing any identifier**, use Lumiverse's existing helpers. For server/core imports use `uuidv4()` or `uuidv7()` from `src/utils/uuid.ts`; for frontend/core use the existing `frontend/src/lib/uuid.ts` exports. For extension-facing code, backend Spindle IDs use `await spindle.uuid.v4()` / `.v7()`; frontend extension IDs use synchronous `ctx.uuid.v4()` / `.v7()` after checking `ctx.uuid` and `ctx.host.capabilities['frontend-uuid-v1']`. **No `crypto.randomUUID()` in extension frontend code**: it breaks over non-secure HTTP origins. No invented v6 API: staging supports **v4 and v7**. Search the actual types and `developer-docs/docs/frontend-api/uuid.md` and `developer-docs/docs/backend-api/uuid.md` when developing in a Lumiverse checkout; see also [the extension skill UUID reference](../work-extension/references/spindle-uuid-helpers.md). Do not use `Math.random` or roll a custom generator.
+
 **PR means a change intended for review and merge into someone else's maintained core, especially Lumiverse.** Git presence alone is not enough. The worktree is user-owned state, never disposable. Smallest **complete** change means no weak hacks, not an arbitrary line-count limit. If the requested PR itself is a redesign, make the necessary bounded structural changes.
 
 For detailed Lumiverse-specific situations (Suite, dirty checkout, iPhone safe top, package scripts), read [references/lumiverse-pr-review.md](references/lumiverse-pr-review.md) as relevant. This skill sets mandatory boundaries; the reference gives deeper procedures.

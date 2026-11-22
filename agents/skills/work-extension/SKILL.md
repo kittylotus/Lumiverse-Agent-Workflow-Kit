@@ -5,6 +5,10 @@ description: Use for building, redesigning, integrating, or packaging a Lumivers
 
 # Extension mode — full liberty inside the extension boundary
 
+## STOP: Use Spindle UUID helpers, not browser crypto.randomUUID
+
+This is a **mandatory first check for any new extension ID**. Current Lumiverse staging supports **UUID v4 and v7 (not v6)**. In backend extension code: `await spindle.uuid.v4()` or `await spindle.uuid.v7()` (return `Promise<string>`). In frontend `setup(ctx)`: `ctx.uuid.v4()` or `ctx.uuid.v7()` (return `string` synchronously). When supporting older hosts, feature-detect `ctx.uuid` **and** `ctx.host.capabilities['frontend-uuid-v1']`; backend capability `'uuid-v1'` is separate. Do not use `crypto.randomUUID()` or `Math.random` to generate extension IDs; plain-HTTP remote browser origins cannot call `crypto.randomUUID()`. Do not invent `.v6()` or roll custom UUID code. **Read [the exact API examples and host compatibility rules](references/spindle-uuid-helpers.md) before implementing IDs.**
+
 **This is NOT PR mode.** The extension is an owned product surface: redesign components, reorganize folders, replace obsolete architecture, consolidate CSS, rewrite tests, update extension-owned types/assets/config and remove dead code when justified. Optimize for a cohesive working extension, not minimum changed lines.
 
 For host-mount, Spindle, browser/PWA, and mock harness details, consult [references/lumiverse-host-lifecycle.md](references/lumiverse-host-lifecycle.md) as relevant.
