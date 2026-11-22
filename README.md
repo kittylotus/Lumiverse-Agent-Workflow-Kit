@@ -61,28 +61,7 @@ Codex discovers repo skills under `.agents/skills/` and user skills under `$HOME
 3. Leave the existing repo `AGENTS.md` alone. Optionally review `AGENTS.example.md` and merge only approved instructions.
 4. Restart Codex if the skill selector hasn't refreshed; verify availability via <kbd>/skills</kbd>.
 
-```powershell
-# Run inside the Lumiverse checkout, after unpacking this kit somewhere else.
-# Replace the path with the unpacked directory. Review name conflicts before copying.
-$kit = 'C:\path\to\Lumiverse_Skills_for_Prolix'
-New-Item -ItemType Directory -Force '.agents\skills' | Out-Null
-Copy-Item "$kit\.agents\skills\*" '.agents\skills\' -Recurse
-```
-
 **Maintainer note:** This pack does **not** automatically edit or commit Lumiverse. Installing skills as tracked repo files is a separate maintainer decision. Use a local/global installation first if preferred.
-
-</details>
-
-<details>
-<summary><b>Install just for yourself (doesn't modify a repository)</b></summary>
-
-```powershell
-$kit = 'C:\path\to\Lumiverse_Skills_for_Prolix'
-New-Item -ItemType Directory -Force "$HOME\.agents\skills" | Out-Null
-Copy-Item "$kit\.agents\skills\*" "$HOME\.agents\skills\" -Recurse
-```
-
-Skills with the same name in more than one location are not automatically merged. Review existing installations before copying. The optional `AGENTS.example.md` can be merged into personal Codex instructions only if you want routing everywhere.
 
 </details>
 
@@ -197,14 +176,6 @@ Keep the PR focused, but make the complete fix rather than a CSS band-aid.
 - **PR reviewability is an artifact.** A minimal diff can still be wrong or incomplete; a larger diff can be right if it is necessary, bounded, and explained.
 - **No credentials in examples, logs or PRs.** Use controlled fixtures for host lifecycle and tests.
 - **Skill availability is not execution proof.** Check actual invocations, files changed and test evidence. Every skill has `allow_implicit_invocation: false`, so invoke it by name, e.g. `$work-pr`.
-
-### Sanity-check the kit before installing
-
-```powershell
-# From the extracted pack directory
-rg --files .agents/skills -g SKILL.md
-python .agents/skills/css-refactor/scripts/scan_duplicate_selectors.py path/to/file.css
-```
 
 That second command is a **read-only warning scan**, not a full CSS parser and not an autofixer. Repeated selectors can be intentional across differing at-rule scopes.
 
