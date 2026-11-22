@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "focus": "Lumiverse core PRs and Lumiverse extensions",
   "skills": [
     {
@@ -81,7 +81,7 @@
     ".agents/skills/docs-authoring/agents/openai.yaml": "58e1284c9768dcbace0b9bb78549ee6996ccd2fbd59c1defd37835b5cb58743a",
     ".agents/skills/interaction-states/SKILL.md": "7f5a3c5c9059860dc452dd9d99c449b53ea41d73494036686764752184fc7e77",
     ".agents/skills/interaction-states/agents/openai.yaml": "fa2e65fba2785b34fcc245ebc696ba95535628726f93d4521e41b5c8573955ed",
-    ".agents/skills/lumiverse-spindle-diagnostics/SKILL.md": "2db8e03b8d8fa24380b81ddcc9428cc515003bcf2756c49fbcf01ebdefbc79c8",
+    ".agents/skills/lumiverse-spindle-diagnostics/SKILL.md": "7ca9f8532b73e3f8342a32bf259e7df60663abfd52627898ac2d978e826ecb34",
     ".agents/skills/lumiverse-spindle-diagnostics/agents/openai.yaml": "6eecbc07b13ecb9c618cf0c1db8c2948199ebcf30839f703f5ff8433c589af26",
     ".agents/skills/repo-investigation/SKILL.md": "2867f42db5df4b3443f70d2aec1214a27d6208c62efd7875d89f81e5e2c6de68",
     ".agents/skills/repo-investigation/agents/openai.yaml": "6c0a2253687aea51f6a99ba8da39f61dca4a8d0ee9729f48c71a455d5156ea06",
@@ -103,14 +103,18 @@
     ".agents/skills/ui-redesign/agents/openai.yaml": "e806a130013ae025f2ebfcfd98de9993322896603955cb239276bfe350716652",
     ".agents/skills/visual-qa/SKILL.md": "21837c62c7b352d10514f5124f9557a66abdb1465695f62b53f1bb0c00e05a70",
     ".agents/skills/visual-qa/agents/openai.yaml": "8a86a9b4ddc8507f2e5d8f906842165767fc1224910e0f13f5f497c32214aaca",
-    ".agents/skills/work-extension/SKILL.md": "79fd6eabf97b87c4b37f19002a8a8e42340676646977e8ca2fa03c7f80c95d70",
+    ".agents/skills/work-extension/SKILL.md": "d84d45c9ad03a8e7a54a1afa772b96c0eac9f9f92eafcc4da0875532d3fbedb0",
     ".agents/skills/work-extension/agents/openai.yaml": "6d989ccac73d9cf83fda61a6e2741887c09371ceacbe5c163e5f8a1b551da037",
     ".agents/skills/work-extension/references/lumiverse-host-lifecycle.md": "c7032bddca9444eeaf3048f7d80ddb666a5255b26a244af84ba589e2597e4977",
-    ".agents/skills/work-pr/SKILL.md": "6d8945d1153d381d065d69f9c8431e73001972d92be3351b13f0df16c8646d01",
+    ".agents/skills/work-extension/references/spindle-uuid-helpers.md": "6f425bd8d2830a3d3d17d6a5fd1203ac7bef8d7721f957af46df4b583ed88605",
+    ".agents/skills/work-pr/SKILL.md": "9fe9ea34701a01131d5ddc5e843f2f90873ca8f088d5ca8b10ff73378293231f",
     ".agents/skills/work-pr/agents/openai.yaml": "a7b02f413f423c4fbdd35f0bf1d19ab13a0814885ce86fcc391c52e8094b3a8e",
     ".agents/skills/work-pr/references/lumiverse-pr-review.md": "5a262616af989f505cf92d346c146b04fb8d24df9dc502d25f37270c8acd691d",
-    "AGENTS.example.md": "46249a3ac025de004f75cb0e458373b5c84be4a4ea756d54dcbcc9bf8b311b19",
-    "README.md": "63f01dfd29004a15d4157fbfdce32cd9400b9e7267f22696d4a24be66e5c3a06",
-    "RELEASE_NOTES.md": "38815feb6a42ab98598e197b594b5c52945121f3050df147dceac1f009ce0ae3"
-  }
+    "AGENTS.example.md": "9ae371bfea2c240cb335bb6aa3487ff6f03f9ecc04d304062212c034ea580239",
+    "README.md": "e480cd5c75afdcc53937cc6533663a39960e0606b47831a3e4bd97e4f7f11b3e",
+    "RELEASE_NOTES.md": "88a36e3ce0f0521fe76051d43148fe839b22c1e33260349b0108e81e06f1ddfe",
+    "UUID_FIRST_AGENTS_SNIPPET.md": "71a7f3eb7c4699087475bca80cfcc5fa35bcad7fb996f9b9a452e1435282b547"
+  },
+  "source_verified_against": "Lumiverse-staging(1).zip (user-supplied snapshot): UUID v4/v7 backend/frontend Spindle APIs",
+  "uuid_policy": "Use backend spindle.uuid.v4/v7 (async) or frontend ctx.uuid.v4/v7 (sync); core uuidv4/uuidv7; never crypto.randomUUID for extensions; no v6 in checked staging."
 }

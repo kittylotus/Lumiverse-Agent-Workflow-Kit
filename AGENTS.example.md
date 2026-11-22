@@ -1,3 +1,8 @@
+# Lumiverse UUID policy — read before all other rules
+
+> [!IMPORTANT]
+> **UUID FIRST — mandatory Lumiverse rule.** Before generating any new ID, use the host’s supported UUID helpers; **never use `crypto.randomUUID()` in Lumiverse extensions** (it is unavailable over plain HTTP remote origins). **Staging supports v4 and v7, NOT v6.** Backend Spindle: `await spindle.uuid.v4()` / `await spindle.uuid.v7()` (async). Frontend extension: `ctx.uuid.v4()` / `ctx.uuid.v7()` (sync, after checking `ctx.uuid` plus `frontend-uuid-v1`). Lumiverse core: reuse the existing `uuidv4()` / `uuidv7()` helpers (`src/utils/uuid.ts` on the server, `frontend/src/lib/uuid.ts` in the frontend). No custom generator, `Math.random`, guessed `.v6()`, or silent fallback. Verify the actual API/type exports in the target checkout before coding.
+
 # Lumiverse skill router (optional agent instructions)
 
 > This is a **template**, not a replacement for Lumiverse's maintainer-owned instructions. Merge only rules the maintainers approve; keep repository `CONTRIBUTING.md` and explicit user requests authoritative.
